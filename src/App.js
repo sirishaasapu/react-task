@@ -10,7 +10,7 @@ import Resume from './Resume';
 
 
 function App() {
-  const empdata=['shivangi','sirisha',"mohsin"]
+  // const empdata=['shivangi','sirisha',"mohsin"]
   return (
     <div>
   <HashRouter>
