@@ -1,0 +1,22 @@
+{
+    "card":[
+        {
+            "cardId":"505",
+            "cardname":"sirisha",
+            "email":"xyz@gmail.com",
+            "branch":"CSE"
+        },
+        {
+            "cardId":"402",
+            "cardname":"shivangi",
+            "email":"zyx@gmail.com",
+            "branch":"ECE"
+        },
+        {
+            "cardId":"327",
+            "cardname":"mohsin",
+            "email":"pqr@gmail.com",
+            "branch":"Mech"
+        }
+    ]
+}
