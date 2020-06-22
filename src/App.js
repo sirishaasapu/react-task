@@ -5,7 +5,7 @@ import './App.css';
 // import Class1 from './class1';
 // import Prop from './exprop'
 import Card from './card';
-import {BrowserRouter,Switch,Route}  from 'react-router-dom';
+import {HashRouter,Switch,Route}  from 'react-router-dom';
 import Resume from './Resume';
 
 
@@ -13,12 +13,12 @@ function App() {
   const empdata=['shivangi','sirisha',"mohsin"]
   return (
     <div>
-  <BrowserRouter basename={window.location.resume || ''}>
+  <HashRouter>
     <Switch>
       <Route exact path='/' component={Idcard}/>
       <Route exact path='/resume' component={Resume}/>
       </Switch>   
-  </BrowserRouter>
+  </HashRouter>
   </div>
   );
 }
