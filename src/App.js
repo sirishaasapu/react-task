@@ -13,7 +13,7 @@ function App() {
   const empdata=['shivangi','sirisha',"mohsin"]
   return (
     <div>
-  <BrowserRouter basename={window.location.pathname || ''}>
+  <BrowserRouter basename={window.location.resume || ''}>
     <Switch>
       <Route exact path='/' component={Idcard}/>
       <Route exact path='/resume' component={Resume}/>
